@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon/"
+     xml:base="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#isCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#isCondition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#isProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#isProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Attributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Attributes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics"/>
+        <rdfs:comment>properties/qualities or states/conditions</rdfs:comment>
+        <rdfs:label>Attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Entities/things/objects"/>
+        <rdfs:label>By characteristics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Entities/things/objects"/>
+        <rdfs:label>By function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Materials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Materials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics"/>
+        <rdfs:comment>Materials or substances, constituent substances</rdfs:comment>
+        <rdfs:label>Materials</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Operations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Operations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Actions/Activites"/>
+        <rdfs:comment>A transitive action, with the recipient of the action.. External, transitive actions.</rdfs:comment>
+        <rdfs:label>Operations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Time">
+        <rdfs:label>Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Whole_entities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#Whole_entities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics"/>
+        <rdfs:comment>Whole or complex entities</rdfs:comment>
+        <rdfs:label>Whole entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Actions/Activites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Actions/Activites">
+        <rdfs:label>Actions/activities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Artifacts(man-made) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Artifacts(man-made)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics"/>
+        <rdfs:comment>General philosophical and theoretical concepts; very general relations.</rdfs:comment>
+        <rdfs:label>Abstract entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Artificats(man-made) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Artificats(man-made)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics"/>
+        <rdfs:comment>Man-made artifacts by characteristics. e.g. manafactured goods, art objects</rdfs:comment>
+        <rdfs:label>Artifacts(man-made)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Entities/things/objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Entities/things/objects">
+        <rdfs:comment>Entities, things, and objects by characteristics</rdfs:comment>
+        <rdfs:label>Entities/things/objects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Parts/components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Parts/components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics"/>
+        <rdfs:label>Parts/components</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Space/Place/Location/Environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Space/Place/Location/Environment">
+        <rdfs:label>Space/place/location/environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#processes/functions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#processes/functions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisAssignmentv1#Actions/Activites"/>
+        <rdfs:comment>An intransitive action, with no particular recipient of the action; an action that happens by itself, without human agents or intervention. Internal processes, intransitive actions</rdfs:comment>
+        <rdfs:label>Processes/functions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Agents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Agents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_function"/>
+        <rdfs:comment>Performers of actions, inanimate or animate</rdfs:comment>
+        <rdfs:label>Agents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#End-products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#End-products">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_function"/>
+        <rdfs:label>End-products</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Equipment_or_apparatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Equipment_or_apparatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Agents"/>
+        <rdfs:label>Equipment or apparatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Living_entities._Organisms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Living_entities._Organisms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics"/>
+        <rdfs:label>Living entities. Organisms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Naturally_occuring_entities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Naturally_occuring_entities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_characteristics"/>
+        <rdfs:label>Naturally occuring entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Patients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Patients">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontology/facetAnalysisTemplateAnon#By_function"/>
+        <rdfs:comment>Recipients of actions, inanimate or animate</rdfs:comment>
+        <rdfs:label>Patients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Individuals,_personnel,_or_organizations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Individuals,_personnel,_or_organizations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tmaca/ontologies/2026/6/facetAnalysisTemplate#Agents"/>
+        <rdfs:label>Individuals, personnel, or organizations</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
